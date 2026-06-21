@@ -1,6 +1,6 @@
 # Embedded-system-tasks
 
-#TASK 2-Temperature Monitoring System
+#TASK 1-Temperature Monitoring System
 
 ## Objective
 To measure temperature using DHT22 and display it on a 16x2 I2C LCD.
