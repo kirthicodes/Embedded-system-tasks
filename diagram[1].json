@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "kirthika shankar",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -85.8, "left": -58.2, "attrs": {} },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": 135.9, "left": 226.3, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": 180.4, "left": -86.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "ultrasonic1:VCC", "uno:5V", "red", [ "v-105.6", "h-192" ] ],
+    [ "ultrasonic1:GND", "uno:GND.3", "black", [ "v9.6", "h-193.2" ] ],
+    [ "ultrasonic1:TRIG", "uno:9", "green", [ "v0", "h-0.4", "v-326.4", "h-201.6" ] ],
+    [ "ultrasonic1:ECHO", "uno:10", "green", [ "v-355.2", "h-0.8" ] ],
+    [ "servo1:GND", "uno:GND.1", "black", [ "h19.2", "v-326.4", "h124.8" ] ],
+    [ "servo1:V+", "uno:5V", "green", [ "h-28.8", "v-115.1", "h211.2" ] ],
+    [ "uno:5", "servo1:PWM", "green", [ "v-28.8", "h-274.6", "v355.2" ] ]
+  ],
+  "dependencies": {}
+}
