@@ -19,4 +19,4 @@ To measure temperature using DHT22 and display it on a 16x2 I2C LCD.
 - diagram.json
 
 ## Author
-Your Name
+Kirthika S
